@@ -1,0 +1,5 @@
+mutation Login {
+  loginUser(data: {email: "a@b.com", password: "a"}) {
+    token
+  }
+}
